@@ -1,3 +1,4 @@
+  
 body{
     margin:0;
 
@@ -28,7 +29,7 @@ h3{
 }
 .bakgrunnur{
     text-align: center;
-    background-image: url(/img/bakgrunnur.png);
+    background-image: url(img/bakgrunnur.png);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     width:100vw;
@@ -44,7 +45,7 @@ h3{
     margin: 0;
 }
 .bakgrunnur3{
-    background-image: url(https://cdn.discordapp.com/attachments/448444839382482944/818602893866172446/eld.gif);
+    background-image: url(img/eldgos.gif);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     width: 100vw;
@@ -89,4 +90,101 @@ h3{
     top: 205%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+
+
+
+@media screen and (max-width: 60em) {
+
+}
+@media screen and (max-width: 64em){
+
+}
+@media screen and (max-width: 48em) { 
+
+}
+@media screen and (max-width: 37.5em) {
+
+}
+@media screen and (max-width: 30em) {
+    .bakgrunnur{
+        text-align: center;
+        background-image: url(img/bakgrunnursimi.jpg);
+        background-repeat: no-repeat;
+        width:100vw;
+        height:100vh;
+        margin:0;
+    }
+    .bakgrunnur2{
+        background-image: url(https://i.pinimg.com/originals/71/78/23/717823e76b8981bdb774ca480c4ef511.jpg);
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    .bakgrunnur3{
+        background-image: url(img/eldsimi.gif);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 50px;
+        color: whitesmoke;
+    }
+    h3{
+        font-size: 50px;
+        color: rgb(243, 65, 65);
+        margin: 0;
+        font-family: 'Amiri', serif;
+        text-shadow: 3px 2px rgba(185, 95, 95, 0.425);
+    }
+    .midja{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .midja2 {
+        margin: 0;
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .midja3{
+        margin: 0;
+        position: absolute;
+        top: 155%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .midja4{
+        margin: 0;
+        position: absolute;
+        top: 215%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .griddari{
+        display: grid;
+        margin-top:40%;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        padding: 15px;
+    }
+    .griddari > div{
+        background-color: rgba(0, 0, 0, 0.418);
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.418);
+    }
 }
